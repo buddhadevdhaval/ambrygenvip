@@ -1,0 +1,24 @@
+{
+	"name": "acf/get-started",
+	"title": "Get Started block",
+	"description": "A custom get started block.",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["get started"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "get-started-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "get-started/get-started-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

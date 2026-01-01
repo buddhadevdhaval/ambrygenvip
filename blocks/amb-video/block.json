@@ -1,0 +1,24 @@
+{
+	"name": "acf/amb-video",
+	"title": "Amb Video",
+	"description": "A custom video block.",
+	"category": "theme-blocks",
+	"icon": "video-alt",
+	"keywords": ["video"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "amb-video-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "video/video-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

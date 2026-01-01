@@ -1,0 +1,25 @@
+{
+	"name": "acf/banner",
+	"title": "Banner Block",
+	"description": "A custom banner block.",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["banner", "hero"],
+	"align": "full",
+
+	"supports": {
+		"align": true,
+		"mode": true
+	},
+
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-banner-block.php"
+	},
+
+	"example": {
+		"attributes": {
+			"mode": "preview"
+		}
+	}
+}

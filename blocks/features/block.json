@@ -1,0 +1,24 @@
+{
+	"name": "acf/features",
+	"title": "Features block",
+	"description": "A custom features block.",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["features"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "features/features-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "features/features-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

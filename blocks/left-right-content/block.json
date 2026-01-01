@@ -1,0 +1,24 @@
+{
+	"name": "acf/left-right-content",
+	"title": "Left Right Content block",
+	"description": "A custom left right content block.",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["left right content"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "left-right-content-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "get-started/get-started-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

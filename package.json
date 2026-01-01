@@ -1,0 +1,51 @@
+{
+  "name": "Ambrygen",
+  "version": "1.0.0",
+  "theme-version": "2.2.3",
+  "description": "A WordPress custom theme",
+
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+
+    "start:blocks": "wp-scripts start --config ./webpack.config.blocks.js",
+    "build:blocks": "wp-scripts build --config ./webpack.config.blocks.js",
+
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "format:css": "npm run lint:css -- --fix",
+    "format:js": "npm run lint:js -- --fix",
+
+    "phpcs:report": "vendor/bin/phpcs --report=summary",
+    "setup": "npm install && composer install",
+    "npm:install": "npm install",
+    "composer:clean": "composer install --no-dev"
+  },
+
+  "devDependencies": {
+    "@wordpress/compose": "^7.0.0",
+    "@wordpress/dom-ready": "^4.0.0",
+    "@wordpress/icons": "^10.0.0",
+    "@wordpress/scripts": "^28.0.0",
+
+    "copy-webpack-plugin": "^12.0.2",
+    "eslint-plugin-html": "^8.1.1",
+    "html-loader": "^5.0.0",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  },
+
+  "dependencies": {
+    "swiper": "^11.1.14"
+  },
+
+  "engines": {
+    "node": ">=20.14.0 <21"
+  },
+
+  "author": "Ambrygen",
+  "license": "GPL-2.0-or-later"
+}

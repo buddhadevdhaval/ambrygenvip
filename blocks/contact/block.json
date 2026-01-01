@@ -1,0 +1,24 @@
+{
+	"name": "acf/contact",
+	"title": "Contact block",
+	"description": "A custom contact block",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["contact"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-contact-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "contact/contact-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

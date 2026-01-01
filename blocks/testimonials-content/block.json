@@ -1,0 +1,24 @@
+{
+	"name": "acf/testimonials-content",
+	"title": "Testimonials Content block",
+	"description": "A custom testimonials content block.",
+	"category": "theme-blocks",
+	"icon": "superhero-alt",
+	"keywords": ["testimonials-content"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "testimonials-content/testimonials-content-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "testimonials-content/testimonials-content-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}
